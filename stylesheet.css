@@ -1,0 +1,111 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;
+}
+
+/* Element Selectors */
+body{
+    position: relative;
+    font-family: "Bebas Neue", arial;
+    font-size: 20px;
+    background-color: white;
+    color:#e8ddcb;
+}
+
+h1,h2{
+    margin:20px;
+}
+main{
+    padding: 60px 0;
+    color: #033649;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a{
+    color: #e8ddcb;
+    text-decoration: none;
+}
+
+header,footer{
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #033649;
+}
+
+header{
+    position: fixed;
+    border-bottom: 6px solid #036564;
+}
+
+footer{
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 6px solid#036564;
+    color: #e8ddcb;
+}
+
+img{
+    display: block;
+    margin:20px auto;
+}
+
+section{
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #cdb380;
+    background-color: #e8ddcb;
+}
+
+figure{
+    margin-bottom: 40px;
+}
+
+form{
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #cdb380;
+    border-radius: 20px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+
+input,
+textarea{
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid#036564;
+}
+
+textarea{
+    vertical-align: top;
+    height: 60px;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    background-color: #036564;
+    color: #e8ddcb;
+    font-size: 18px;
+}
+
+/* Class Selectors */
+.text-rigth{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
